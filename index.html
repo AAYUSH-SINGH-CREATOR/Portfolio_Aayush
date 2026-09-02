@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aayush | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,39 +20,39 @@
                     Aayush
                 </div>
                 <div class="navlinks">
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">Skills</a>
-                    <a href="">Services</a>
-                    <a href="">Projects</a>
-                    <a href="">Contact</a>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#about">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
                 </div>
 
-                <div class="connectbtn">
+                <a href="#contact" class="connectbtn">
                     Let's Talk
-                </div>
+                </a>
             </div>
 
             <!-- navbar section end -->
 
             <!-- hero section  -->
 
-            <div class="herocontainer">
+            <div class="herocontainer" id="home">
                 <div class="herointro">
-                    <p>Hello, i'm Aayush</p>
+                    <p class="greeting">Hello, i'm Aayush</p>
                     <h1>Full-Stack Developer</h1>
-                    <pre>
+                    <p class="herodesc">
                         i buid modern, responsive and user friendly web
                         application with clean and effecient code.
-                       </pre>
+                    </p>
                     <div class="herobtndiv">
-                        <button>View My Works</button>
-                        <button>Contact Me</button>
+                        <a href="#projects"><button class="btn-primary">View My Works</button></a>
+                        <a href="#contact"><button class="btn-secondary">Contact Me</button></a>
                     </div>
                 </div>
                 <div class="heroimg">
-                    <img src="https://imgs.search.brave.com/CFOT39zKvDZPmLyTJ8T8W99mTb8MpBLvNjaSguLyBAo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDEwNTIz/OTA2LmpwZw"
-                        alt="">
+                    <img src="stack/heroimg.jpeg"
+                        alt="Aayush">
                 </div>
             </div>
             <!-- Hero section end -->
@@ -57,7 +60,7 @@
 
             <!-- about section -->
 
-            <div class="aboutcontainer">
+            <div class="aboutcontainer" id="about">
                 <h4 class="containersubhead">introduction</h4>
                 <h2 class="containerhead">About Me</h2>
                 <div class="abouthero">
@@ -92,7 +95,7 @@
             <!-- techstack section -->
 
 
-            <div class="techstack">
+            <div class="techstack" id="skills">
                 <h4 class="containersubhead">TOOLKIT</h4>
                 <h2 class="containerhead">Tech Stack</h2>
 
@@ -140,7 +143,7 @@
 
             <!-- project section -->
 
-            <div class="projects">
+            <div class="projects" id="projects">
                 <h4 class="containersubhead">PROJECTS</h4>
                 <h2 class="containerhead">Featured Projects</h2>
                 <p class="abouttechstack">
@@ -148,18 +151,18 @@
                 </p>
 
                 <div class="projectcards">
-                    <div class="projectcards">
+                    <div class="projectcard">
                         <img src="stack/pokemongame.png" alt="pokemongameIMAGE">
                         <div class="projectLink">
-                            <button class=gitbtn">GITHUB</button>
-                            <button class="livebtn">Live Demo</button>
+                            <a href="https://github.com/AAYUSH-SINGH-CREATOR" target="_blank"><button class="gitbtn">GITHUB</button></a>
+                            <a href="https://guesspokemonn.netlify.app/" target="_blank"><button class="livebtn">Live Demo</button></a>
                         </div>
                     </div>
-                    <div class="projectcards">
+                    <div class="projectcard">
                         <img src="stack/shopcart.png" alt="shopcartImgae">
                         <div class="projectLink">
-                            <button class=gitbtn">GITHUB</button>
-                            <button class="livebtn">Live Demo</button>
+                            <a href="https://github.com/AAYUSH-SINGH-CREATOR" target="_blank"><button class="gitbtn">GITHUB</button></a>
+                            <a href="https://shopcartty.netlify.app/" target="_blank"><button class="livebtn">Live Demo</button></a>
                         </div>
                     </div>
                 </div>
@@ -169,7 +172,7 @@
 
             <!-- contact section -->
 
-            <div class="contactsection">
+            <div class="contactsection" id="contact">
                 <h4 class="containersubhead">GET IN TOUCH</h4>
                 <h2 class="containerhead">Let's Work Together</h2>
                 <p class="abouttechstack">
@@ -183,38 +186,24 @@
                             message or reach out via social links </p>
 
                         <div class="contactcards">
-                            <!-- <div class="introcard">
-                                <h3 class="intocardheading">EMAIL</h3>                               
-                            </div>
-
-                            <div class="introcard">
-                                <h3 class="intocardheading">LINKDIN</h3>
-                               <a href="https://www.linkedin.com/in/aayush-singh-chauhan-0a093a426/"></a>
-                            </div>
-
-                            <div class="introcard">
-                                <h3 class="intocardheading">GITHUB</h3>
-                                <a href=""></a>
-                            </div> -->
-
                             <a href="mailto:1211aayushh@gmail.com">
                                 <div class="introcard">
                                     <h3 class="intocardheading">EMAIL</h3>
-                                    <p class="">1211aayushh@gmail.com</p>
+                                    <p>1211aayushh@gmail.com</p>
                                 </div>
                             </a>
 
-                            <a href="https://www.linkedin.com/in/aayush-singh-chauhan-0a093a426/">
+                            <a href="https://www.linkedin.com/in/aayush-singh-chauhan-0a093a426/" target="_blank">
                                 <div class="introcard">
-                                    <h3 class="intocardheading">EMAIL</h3>
-                                    <p class="">1211aayushh@gmail.com</p>
+                                    <h3 class="intocardheading">LINKEDIN</h3>
+                                    <p>aayush-singh-chauhan</p>
                                 </div>
                             </a>
 
-                            <a href="github.com/AAYUSH-SINGH-CREATOR">
+                            <a href="https://github.com/AAYUSH-SINGH-CREATOR" target="_blank">
                                 <div class="introcard">
-                                    <h3 class="intocardheading">EMAIL</h3>
-                                    <p class="">1211aayushh@gmail.com</p>
+                                    <h3 class="intocardheading">GITHUB</h3>
+                                    <p>AAYUSH-SINGH-CREATOR</p>
                                 </div>
                             </a>
                         </div>
@@ -224,22 +213,22 @@
                         <form action="#">
                             <div>
                                 <label for="name">Name</label>
-                                <input type="text" placeholder="Enter your name">
+                                <input type="text" id="name" placeholder="Enter your name">
                             </div>
 
                             <div>
                                 <label for="email">Email</label>
-                                <input type="email" placeholder="Enter your email">
+                                <input type="email" id="email" placeholder="Enter your email">
                             </div>
 
                             <div>
                                 <label for="subject">subject</label>
-                                <input type="text" placeholder="Project inquiry ? job opportunity">
+                                <input type="text" id="subject" placeholder="Project inquiry ? job opportunity">
                             </div>
 
                             <div>
                                 <label for="message">Message</label>
-                                <textarea placeholder="write your message..."></textarea>
+                                <textarea id="message" rows="5" placeholder="write your message..."></textarea>
                             </div>
 
                             <button type="submit">Send Message</button>
@@ -248,7 +237,6 @@
                 </div>
 
             </div>
-
 
         </div>
     </div>
