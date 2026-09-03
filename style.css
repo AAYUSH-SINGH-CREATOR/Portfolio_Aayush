@@ -66,6 +66,7 @@ body {
 
 .navlinks a:hover {
     color: #38bdf8;
+    transform: translateY(-2px);
 }
 
 .connectbtn {
@@ -340,7 +341,24 @@ body {
     margin-bottom: 15px;
 }
 
+.services{
+    border-top:1px solid #21262d;
+    padding: 70px 0;
+}
+
+.services h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    /* margin: 0 0 30px 0; */
+}
+
+.services p{
+    padding: 10px 0;
+}
+
 .aboutcards {
+    /* border: 3px solid greenyellow; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -681,6 +699,18 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.service a{
+    text-decoration: none;
+    color: #c9d1d9;
+    transition: all 350ms;
+}
+
+.service a:hover{
+    color: #0284c7;
+    transform: translateX(2px);
+
 }
 
 .service ol {
