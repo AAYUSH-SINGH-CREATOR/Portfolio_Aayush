@@ -676,13 +676,19 @@ body {
 }
 
 .quicklinks {
-    /* margin-top: 20px; */
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.quicklinks a {
+.quicklinks ol{
+   list-style-type: disc;
+   display: flex;
+   flex-direction: column;
+   gap: 13px;
+}
+
+.quicklinks ol li a{
     color: #c9d1d9;
     text-decoration: none;
     font-size: 15px;
@@ -690,8 +696,12 @@ body {
     transition: 0.3s;
 }
 
-.quicklinks a:hover {
-    color: #38bdf8;
+.quicklinks ol li{
+    transition: all 0.3s;
+}
+
+.quicklinks ol li:hover{
+    color: #38bdf8;  
     transform: translateX(2px);
 }
 
@@ -720,6 +730,15 @@ body {
     /* justify-content: center; */
     /* border: 2px solid yellowgreen; */
     gap: 15px;
+}
+
+.service ol li{
+    
+    transition: all 350ms;
+}
+.service ol li:hover{
+    color: #8b949e;
+    transform: translateY(-2.5px);
 }
 
 .connectfooter {
